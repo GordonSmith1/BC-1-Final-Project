@@ -1,11 +1,55 @@
 body {
     background-color: #223;
+}
+
+.nav-bar {
+    height: 90px;
     width: 100%;
+}
+
+.nav-list {
+    float: right;
+    list-style-type: none;
+}
+
+.list-item {
+    float: left;
+    margin: 25px 30px 25px 30px;
+}
+
+.nav-text {
+    color: #888;
+    text-decoration: none;
+}
+
+.nav-text:HOVER {
+    color: #333;
+}
+
+.logo {
+    width: 8%;
+    margin: 20px 20px;
 }
 
 .hero-img-top {
     background-image: url(../img/hero-top.jpg);
     height: 700px;
+}
+
+.h-text {
+    text-align: center;
+    margin-top: 50px;
+    color: #000;
+}
+
+.github {
+    width: 50px;
+    margin: 150px 0px 0px 600px;
+}
+
+.down-arrow {
+    width: 85px;
+    margin: 240px 595px 0px 595px;
 }
 
 .hero-img-mid {
