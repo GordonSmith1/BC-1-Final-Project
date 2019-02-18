@@ -82,7 +82,7 @@ body {
 }
 
 .rr:HOVER {
-    color: #00b33c;
+    color: #00802b;
 }
 
 /*--------------------HERO MID---------------*/
@@ -107,19 +107,31 @@ body {
 
 .footer-col {
     width: 33%;
-    margin-top: 10px;
+    margin-top: 11px;
     float: left;
 }
 
+.email {
+    margin: 25px 0px 0px 55px;
+}
+
 .submit {
+    background-color: #223;
+    border-style: solid;
+    border-color: #126d26;
+    font-size: 13px;
+    color: #888;
+}
+
+.submit-but {
     background-color: #223;
     border-style: none;
     font-size: 13px;
     color: #888;
 }
 
-.email {
-    margin: 25px 0px 0px 55px;
+.submit-but:HOVER {
+    color: #777;
 }
 
 .soc-med-icon {
