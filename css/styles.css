@@ -1,5 +1,6 @@
 body {
     background-color: #223;
+    color: #888;
 }
 
 .nav-bar {
@@ -18,12 +19,12 @@ body {
 }
 
 .nav-text {
-    color: #888;
+    color: #889;
     text-decoration: none;
 }
 
 .nav-text:HOVER {
-    color: #333;
+    color: #bbb;
 }
 
 .logo {
@@ -49,11 +50,35 @@ body {
 
 .down-arrow {
     width: 85px;
-    margin: 240px 595px 0px 595px;
+    margin: 220px 0px 0px 582px;
 }
 
-.hero-img-mid {
+.main {
+    height: 275px;
+    text-align: center;
+}
+
+.hero-mid {
     background-image: url(../img/hero-mid.jpg);
-    height: 852px;
+    height: 360px;
 }
 
+.hero-bot {
+    background-image: url(../img/hero-bot.jpg);
+    height: 360px;
+}
+
+.footer {
+    height: 75px;
+}
+
+.footer-col {
+    width: 30%;
+    margin: 0 auto;
+    float: left;
+}
+
+.soc-med-icon {
+    width: 30px;
+    float: left;
+}
