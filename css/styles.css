@@ -1,7 +1,14 @@
+/*----------------GLOBAL---------------*/
+
 body {
     background-color: #223;
     color: #888;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
 }
+
+/*--------------NAV BAR----------------*/
 
 .nav-bar {
     height: 90px;
@@ -19,22 +26,24 @@ body {
 }
 
 .nav-text {
-    color: #889;
+    color: #99a;
     text-decoration: none;
 }
 
 .nav-text:HOVER {
-    color: #bbb;
+    color: #777;
 }
 
 .logo {
-    width: 8%;
-    margin: 20px 20px;
+    width: 13%;
+    margin: 35px 20px;
 }
 
+/*----------------HERO TOP--------------*/
+
 .hero-img-top {
-    background-image: url(../img/hero-top.jpg);
-    height: 700px;
+    background-image: url(../img/hero-top3-v3.jpg);
+    height: 720px;
 }
 
 .h-text {
@@ -50,35 +59,75 @@ body {
 
 .down-arrow {
     width: 85px;
-    margin: 220px 0px 0px 582px;
+    margin: 245px 0px 0px 582px;
 }
 
+/*-------------------MAIN---------------*/
+
 .main {
-    height: 275px;
+    height: 250px;
     text-align: center;
 }
 
+.main-text {
+    height: 150px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.rr {
+    color: #009933;
+    text-decoration: none;
+}
+
+.rr:HOVER {
+    color: #00b33c;
+}
+
+/*--------------------HERO MID---------------*/
+
 .hero-mid {
     background-image: url(../img/hero-mid.jpg);
-    height: 360px;
+    height: 600px;
 }
+
+/*--------------------HERO BOT----------------*/
 
 .hero-bot {
-    background-image: url(../img/hero-bot.jpg);
-    height: 360px;
+    background-image: url(../img/hero-bot1.jpg);
+    height: 650px;
 }
 
+/*--------------------FOOTER------------------*/
+
 .footer {
-    height: 75px;
+    height: 150px;
 }
 
 .footer-col {
-    width: 30%;
-    margin: 0 auto;
+    width: 33%;
+    margin-top: 10px;
     float: left;
+}
+
+.submit {
+    background-color: #223;
+    border-style: none;
+    font-size: 13px;
+    color: #888;
+}
+
+.email {
+    margin: 25px 0px 0px 55px;
 }
 
 .soc-med-icon {
     width: 30px;
     float: left;
+    margin: 25px 0px 0px 80px;
+}
+
+.copyright {
+    margin: 35px 0px 0px 200px;
 }
