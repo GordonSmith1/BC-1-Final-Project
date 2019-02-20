@@ -11,7 +11,7 @@ body {
     height: 110px;
     position: fixed;
     top: 0;
-    background-image: linear-gradient(to bottom right,#b3ffb3,#66ff66,#5cd6d6);
+    background-color: #ffffcc;
 }
 
 /*-----------HERO-ABOUT---------*/
@@ -21,11 +21,23 @@ body {
     margin-top: 110px;
     width: 100%;
     height: 630px;
-    text-align: center;
+    position: relative;
+    z-index: -1;
 }
 
-
 .hero-about-text {
-    margin-top: 50px;
+    text-align: center;
     color: #000;
+    border-bottom-style: solid;
+    position: absolute;
+    top: 50px;
+    left: 210px;
+}
+
+.main-about {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
 }
