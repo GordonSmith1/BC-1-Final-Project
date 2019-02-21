@@ -1,0 +1,25 @@
+.nav-bar {
+    height: 90px;
+    position: fixed;
+    top: 0;
+    background-color: #ffffcc;
+}
+
+.box {
+    
+    float: left;
+    width: 48%;
+    height: 600px;
+    margin: 120px 0px 0px 0px;
+}
+
+.form-ad {
+    width: 75%;
+    height: 500px;
+}
+
+.map {
+    width: 60%;
+    height: 600px;
+    margin: 0 auto;
+}
